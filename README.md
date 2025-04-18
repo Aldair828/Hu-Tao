@@ -1,7 +1,7 @@
-## MomoAyaseBot-MD Powered @Alba070503 ✨
+## KoharuBot-MD Powered @Alba070503 ✨
 
 <p align="center">
-<img src="https://qu.ax/YlwSb.jpg" alt="MomoAyaseBot-MD" width="900"/>
+<img src="https://files.catbox.moe/8oepmx.jpg" alt="KoharuBot-MD" width="900"/>
 </p>
 
 <a href="https://github.com/Alba070503-Official/ShizukaBot-MD"><img title="Stars" src="https://img.shields.io/github/stars/Alba070503-Official/ShizukaBot-MD?color=ff4500&style=flat-square" /></a>
@@ -20,7 +20,7 @@
 Sigueme en mi canal de WhatsApp donde subo actualizaciónes del bot (⁠・⁠∀⁠・⁠)
 
 <a href="https://whatsapp.com/channel/0029VaAN15BJP21BYCJ3tH04">
-  <img src="https://img.shields.io/badge/MomoAyaseBot-MD-0a0a0a?style=for-the-badge&logo=whatsapp&logoColor=white">
+  <img src="https://img.shields.io/badge/KoharuBot-MD-0a0a0a?style=for-the-badge&logo=whatsapp&logoColor=white">
 </a>
 
 ***
