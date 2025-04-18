@@ -1,39 +1,47 @@
-## KoharuBot-MD Powered @Alba070503 ✨
-
+# ⋆｡ﾟ☁︎｡⋆｡ ﾟ☾ ﾟ｡⋆ KoharuBot-MD ⋆｡ﾟ☁︎｡⋆｡ ﾟ☾ ﾟ｡⋆
 <p align="center">
-<img src="https://files.catbox.moe/8oepmx.jpg" alt="KoharuBot-MD" width="900"/>
+  <img src="https://files.catbox.moe/8oepmx.jpg" alt="KoharuBot-MD" width="900"/>
 </p>
 
-<a href="https://github.com/Alba070503-Official/ShizukaBot-MD"><img title="Stars" src="https://img.shields.io/github/stars/Alba070503-Official/ShizukaBot-MD?color=ff4500&style=flat-square" /></a>
-<a href="https://github.com/zhwzein/Killua-Zoldyck/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Alba070503-Official/ShizukaBot-MD?color=ff4500&style=flat-square" /></a>
-<a href="https://github.com/zhwzein/Killua-Zoldyck/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Alba070503-Official/ShizukaBot-MD?label=watchers&color=ff4500&style=flat-square" /></a> <br>
+<p align="center">
+  <img src="https://img.shields.io/github/stars/Alba070503-Official/ShizukaBot-MD?color=ffc0cb&style=flat-square" />
+  <img src="https://img.shields.io/github/forks/Alba070503-Official/ShizukaBot-MD?color=ffc0cb&style=flat-square" />
+  <img src="https://img.shields.io/github/watchers/Alba070503-Official/ShizukaBot-MD?label=watchers&color=ffc0cb&style=flat-square" />
+</p>
 
+<p align="center">
+  <a href="https://www.youtube.com/@AlbaO7O503">
+    <img src="https://img.shields.io/badge/YouTube-FF69B4?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube">
+  </a>
+  <a href="https://instagram.com/Alba070503">
+    <img src="https://img.shields.io/badge/Instagram-FF69B4?style=for-the-badge&logo=instagram&logoColor=white">
+  </a>
+</p>
 
-<a href="https://www.youtube.com/@AlbaO7O503">
-<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube">
-</a>
-<a href="https://instagram.com/Alba070503">
-<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
-</a>
+---
 
-### Ejemplo 
-Sigueme en mi canal de WhatsApp donde subo actualizaciónes del bot (⁠・⁠∀⁠・⁠)
+### ⋆˚｡☆✩ Ejemplo ✩☆｡˚⋆
+¡Sígueme en mi canal de WhatsApp para estar al día con las actualizaciones del bot! (⸝⸝ᵕᴗᵕ⸝⸝)
 
 <a href="https://whatsapp.com/channel/0029VaAN15BJP21BYCJ3tH04">
-  <img src="https://img.shields.io/badge/KoharuBot-MD-0a0a0a?style=for-the-badge&logo=whatsapp&logoColor=white">
+  <img src="https://img.shields.io/badge/KoharuBot-MD-ffc0cb?style=for-the-badge&logo=whatsapp&logoColor=white">
 </a>
 
-***
+---
 
-### `⚙️ AJUSTES ⚙️`
-- CAMBIAR NÚMERO DE PROPIETARIO [aqui](https://github.com/Alba070503-Official/MomoAyaseBot-MD/blob/main/config.js#L6)
-- CLONAR EL REPOSITORIO [Aqui](https://github.com/Alba070503-Official/MomoAyaseBot-MD/fork)
-- Puede cambiar a la última versión de baileys editando el package.json [aqui](https://github.com/Alba070503-Official/MomoAyaseBot-MD/blob/main/package.json#L42)
-***
+## ✨ `A J U S T E S  K A W A I I` ✨
+- Cambiar número de propietario: [clic aquí](https://github.com/Alba070503-Official/KoharuBot-MD/blob/main/config.js#L6)
+- Clonar el repositorio: [clic aquí](https://github.com/Alba070503-Official/KoharuBot-MD/fork)
+- Cambiar versión de Baileys: [clic aquí](https://github.com/Alba070503-Official/KoharuBot-MD/blob/main/package.json#L42)
 
-#### INSTALACIÓN AUTOMÁTICA POR TERMUX
-[![blog](https://img.shields.io/badge/Instalacion-Automatica-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/smoWgg28wPk?si=ck-t9tvKrJQ0yZbS?feature=share)
+---
 
+## ✨ INSTALACIÓN AUTOMÁTICA EN TERMUX ✨
+[![Instalación automática](https://img.shields.io/badge/Instalación%20-Automática-FF69B4?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/smoWgg28wPk?si=ck-t9tvKrJQ0yZbS?feature=share)
+
+```bash
+termux-setup-storage
+apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/Alba070503-Official/KoharuBot-MD/master/Momo.sh | bash
 > **Nota:** Comandos para instalar de forma automática en Termux  
 ```bash
 termux-setup-storage
@@ -86,22 +94,26 @@ para usuarios del heroku
 | **IMAGEMAGICK** | [click](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
 
 ***
-----
-### 🟢 INFINITY-HOST
-> Activar **ShizukaBot-MD** 24/7 activo en Infinity-Host
+-----
+### ☁️ Activar HokaruBot-MDpp 24/7 activos en SkyPlus Host
+[![YouTube](https://img.shields.io/badge/SkyUltraPlus-Host-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/fZbcCLpSH6Y?si=1sDen7Bzmb7jVpAI)
 
-<a href="https://dashboard.infinitywa.xyz"><img src="https://qu.ax/XLCK.jpg" height="125px"></a>
+<a href="https://dash.corinplus.com"><img src="https://qu.ax/zFzXF.png" height="125px"></a>
+
 ### Información del Host
+- **Pagina Oficial:** [`Aqui`](https://skyultraplus.com)
+- **Dashboard:** [`Aquí`](https://dash.skyultraplus.com)
+- **Panel:** [`Aquí`](https://panel.skyultraplus.com)
+- **Estado de servicios:** [`Aquí`](https://estado.skyultraplus.com)
+- **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com/channel/0029VakUvreFHWpyWUr4Jr0g)
+- **Comunidad:** [`Aquí`](https://chat.whatsapp.com/JPwcXvPEUwlEOyjI3BpYys)
+- **Contacto(s):** [`Gata Dios`](https://wa.me/message/B3KTM5XN2JMRD1) / [`Russell`](https://api.whatsapp.com/send/?phone=15167096032&text&type=phone_number&app_absent=0) / [`elrebelde21`](https://facebook.com/elrebelde21)
+- **Discord:** [`aqui`](https://discord.gg/Ph4eWsZ8)
 
-- **Página:** [`Click aqui`](https://dashboard.infinitywa.xyz)
-- **Dashboard:** [`Aquí`](https://dashboard.infinitywa.xyz)
-- **Panel:** [`Aquí`](https://live.panel-infinitywa.store)
-- **Grupo de WhatsApp:** [`Aquí`](https://chat.whatsapp.com/GQ82mPnSYnm0XL2hLPk7FV)
-- **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A)
-- **Support:** [`Bot exclusivo`](https://wa.me/message/FETBF7YBO37CG1)
+- [x] **Configuración** <details><summary>**Ajustes del Servidor - LoliBot-MD**</summary><img src="https://telegra.ph/file/7ddd30dd7d77354fb01fe.jpg"></details>
+----
+----
 
-- [x] **Configuración** <details><summary>**Ajustes del Servidor - ShizukaBot-MD**</summary><img src="https://qu.ax/cpgf.jpg"></details>
-------------------------
 
 🟢 ACTIVAR EN CODES SPACES 
 
@@ -129,7 +141,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
   ## `CREADOR  & PROPIETARIO DEL BOT` 
 <a href="https://github.com/Alba070503"><img src="https://github.com/Alba070503.png" width="250" height="250" alt="Alba070503"/></a>
 
-`ShizukaBot-MD - By @Alba070503 `
+`HokaruBot-MD - By @Alba070503 `
 #### COLABORADORES 
 
 <a href="https://github.com/Alba070503-Official/MomoAyaseBot-MD/graphs/contributors">
@@ -140,4 +152,4 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-`MomoAyaseBot-MD - Powered @Alba070503 `
+`HokaruBot-MD - Powered @Alba070503 `
