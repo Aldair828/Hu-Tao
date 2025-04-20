@@ -49,7 +49,7 @@ fechaBio = biografia[0].setAt ? new Date(biografia[0].setAt).toLocaleDateString(
 • 20 Coins 💰
 • 97 Experiencia 💸
 • 2 Tokens 🪙
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈`, m, {contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: '✅️  R E G I S T R O  ✅️',  body: '👑 Registro Completado', previewType: 0, thumbnail: imagen1, sourceUrl: canales}}})
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈`, m, {contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: '✅️  R E G I S T R O  ✅️',  body: '👑 Registro Completado', previewType: 0, thumbnail: imagen1, sourceUrl: 'https://whatsapp.com/channel/0029VaAN15BJP21BYCJ3tH04'}}})
 let chtxt = `
 👤 *Usuario* » ${m.pushName || 'Anónimo'}
 🗃 *Verificación* » ${user.name}
