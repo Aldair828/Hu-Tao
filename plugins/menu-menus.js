@@ -178,7 +178,7 @@ global.rcanal = {
 	    externalAdReply: {
 				    showAdAttribution: true,
 					title: wm,
-					body: 'Hola',
+					body: 'Hola OniSan (⁠｡⁠♡⁠‿⁠♡⁠｡⁠)',
 					mediaUrl: null,
 					description: null,
 					previewType: "PHOTO",
