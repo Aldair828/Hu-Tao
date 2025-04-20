@@ -8,7 +8,7 @@ const mime = q.mediaType || '';
 if (!/sticker/.test(mime)) throw notStickerMessage;
 const media = await q.download();
 const out = await webp2png(media).catch((_) => null) || Buffer.alloc(0);
-await conn.sendFile(m.chat, out, 'error.png', null, m, null, rcanal);
+await conn.sendFile(m.chat, out, 'error.png', null, m,);
 };
 handler.help = ['toimg (reply)'];
 handler.tags = ['convertidor']
