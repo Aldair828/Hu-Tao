@@ -4,7 +4,7 @@ let user = global.db.data.users[m.sender]
 
 user.registered = false
 
-return conn.reply(m.chat, `🚩 Usted anuló su registro de ShizukaBot-MD 🌻✨️*\n\n🚩 Puede usar #reg nombre.edad para realizar un nuevo registro`, m)
+return conn.reply(m.chat, `🚩 Usted anuló su registro de ShizukaBot-MD 🌻✨️*\n\n🚩 Puede usar #reg nombre.edad para realizar un nuevo registro`, m, rcanal)
 
 }
 handler.help = ['unreg']
