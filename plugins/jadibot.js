@@ -243,7 +243,7 @@ m?.chat ? await conn.sendMessage(m.chat, {text : args[0] ? `❀ Yatta~ ¡Conexi�
 *💻 Botcito:* +${path.basename(pathGataJadiBot)}
 *👤 Dueñito lindo:* ${userName}
 *Notita:* Gracias a la función especial de auto-reinicio (versión Beta)~ si el bot principal se duerme o se reinicia, los sub-bots se despertarán solitos y seguirán funcionando sin pausitas ❀
-> *Únete a nuestro canal secreto para enterarte de todas las actualizaciones y novedades más kawaii del bot~ te esperamos con mucha ilusión~*\n${nna2}`}, { quoted: m }) : ''
+> *Únete a nuestro canal secreto para enterarte de todas las actualizaciones y novedades más kawaii del bot~ te esperamos con mucha ilusión~*\n\nhttps://whatsapp.com/channel/0029VaAN15BJP21BYCJ3tH04`}, { quoted: m }) : ''
 let chtxt = `*Se detectó un nuevo Sub-Bot conectado 💻✨*
 
 *✨ Bot :* wa.me/${path.basename(pathGataJadiBot)}
