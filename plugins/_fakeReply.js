@@ -96,8 +96,29 @@ global.icono = [
 'https://files.catbox.moe/yborww.jpg',
 ].getRandom()
 
-  
-global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, serverMessageId: 100, newsletterName: channelRD.name, }, externalAdReply: { showAdAttribution: true, title: packname, body: dev, mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
+  global.rcanal = {
+    contextInfo: {
+    	isForwarded: true,
+    forwardedNewsletterMessageInfo: {
+      newsletterJid: "120363198641161536@newsletter",
+      serverMessageId: 100,
+      newsletterName: 'KoharuBot-MD - @Alba070503',
+    },
+	    externalAdReply: {
+				    showAdAttribution: true,
+					title: wm,
+					body: 'Hola',
+					mediaUrl: null,
+					description: null,
+					previewType: "PHOTO",
+					thumbnailUrl: 'https://qu.ax/dSqjk.jpg',
+		           sourceUrl: 'https://whatsapp.com/channel/0029VaAN15BJP21BYCJ3tH04',
+		           mediaType: 1,
+                   renderLargerThumbnail: false
+	    },
+    },
+  }
+
 //Reacciones De Comandos.!
 global.rwait = '🕒'
 global.done = '✅'
