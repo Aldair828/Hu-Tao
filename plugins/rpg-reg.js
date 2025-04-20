@@ -31,7 +31,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
       txt += `\t\t*» Hora* :: ${time}\n\n`
       txt += `> Escribe *${usedPrefix}profile* para ver tu perfil.`
       
-  await conn.sendFile(m.chat, img, 'perfil.jpg', txt, m, rcanal, false, { mentions: [m.sender] })
+  await conn.sendFile(m.chat, img, 'perfil.jpg', txt, rcanal, m, false, { mentions: [m.sender] })
   await m.react('✅')
 }
 
