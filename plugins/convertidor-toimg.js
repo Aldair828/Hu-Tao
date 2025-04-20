@@ -9,7 +9,7 @@ await m.react('🕓')
 try {
 let media = await q.download()
 let out = await webp2png(media).catch(_ => null) || Buffer.alloc(0)
-await conn.sendFile(m.chat, out, 'thumbnail.jpg', listo, m, rcanal)
+await conn.sendFile(m.chat, out, 'thumbnail.jpg', listo, m)
 await m.react('✅')
 } catch {
 await m.react('✖️')
