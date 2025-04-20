@@ -94,7 +94,7 @@ global.eeg = '『❀ R E P O R T I T O  E N V I A D O ❀』\n\n'
 global.eg = '『❀ T O D O  S A L I Ó  B I E N ~ Y A Y ❀』\n\n'
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.catalogo = fs.readFileSync('./src/img/catalogo.jpg')
+global.catalogo = fs.readFileSync('./src/img/catagolo.jpg')
 global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: packname, orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
 
 //-------------------------[ IMAGEN ]------------------------------
