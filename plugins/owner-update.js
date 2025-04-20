@@ -6,7 +6,7 @@ const stdout = execSync('git pull' + (m.fromMe && text ? ' ' + text : ''));
 let messager = stdout.toString()
 if (messager.includes('Already up to date.')) messager = await tr(`⚠️ Ya esta actualizado a la versión reciente.`)
 if (messager.includes('Updating')) messager = `*[ UPDATE ]*\n\n` + stdout.toString()
-conn.reply(m.chat, messager, m, rcanal);
+conn.reply(m.chat, messager, m, rcanal,);
 } catch {      
 try {    
 const status = execSync('git status --porcelain');
@@ -23,7 +23,7 @@ return '*→ ' + line.slice(3) + '*'})
 .filter(Boolean);
 if (conflictedFiles.length > 0) {
 const errorMessage = `⚠️ ${await tr("Error")}\n> *${await tr("Se han encontrado cambios locales en los archivos del bot que entran en conficto con las nuevas actualizaciones del repositorio. para actualizar, reinstalar el bot o realizar las actualizaciones manualmente.")}*\n\n*\`${await tr("ARCHIVO EN CONFLICTO")} :\`*\n\n${conflictedFiles.join('\n')}.*`
-await conn.reply(m.chat, errorMessage, m, rcanal);  
+await conn.reply(m.chat, errorMessage, m, rcanal,);  
 }}
 } catch (error) {
 console.error(error);
