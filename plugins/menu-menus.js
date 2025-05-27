@@ -609,7 +609,7 @@ let handler = async (m, { conn, db }) => {
 
 `.trim();
 
-    let videoBuffer = await fetchBuffer("https://qu.ax/ooqaO.mp4");
+    let videoBuffer = await fetchBuffer("https://qu.ax/XZaYe.mp4");
 
     // Enviar video MP4 junto con el menú
     await conn.sendMessage(m.chat, { 
