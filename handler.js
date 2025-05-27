@@ -653,8 +653,8 @@ for (let nk of callUpdate) {
 if (nk.isGroup == false) {
 if (nk.status == "offer") {
 let callmsg = await this.reply(nk.from, `ʜᴏʟᴀ *@${nk.from.split('@')[0]}*, ʟᴀs ${nk.isVideo ? 'videollamadas' : 'llamadas'} ɴᴏ ᴇsᴛᴀɴ ᴘᴇʀᴍɪᴛɪᴅᴀs, sᴇʀᴀs ʙʟᴏǫᴜᴇᴀᴅᴏ.\n\nsɪ ᴀᴄᴄɪᴅᴇɴᴛᴀʟᴍᴇɴᴛᴇ ʟʟᴀᴍᴀsᴛᴇ ᴘᴏɴɢᴀsᴇ ᴇɴ ᴄᴏɴᴛᴀᴄᴛᴏ ᴄᴏɴ ᴍɪ ᴄʀᴇᴀᴅᴏʀ ᴘᴀʀᴀ ǫᴜᴇ ᴛᴇ ᴅᴇsʙʟᴏǫᴜᴇᴇ!\n\nɢʀᴜᴘᴏ ᴀsɪsᴛᴇɴᴄɪᴀ ғᴀᴄᴇʙᴏᴏᴋ: ${fb}`, false, { mentions: [nk.from] })
-let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;✿ KoharuBot-MD ✿ ;;;\nFN:KoharuBot-MD✿\nORG:KoharuBotMD✿\nTITLE:\nitem1.TEL;waid=5214774444444:+52 477 444 4444\nitem1.X-ABLabel:kօհαɾմ հí́ժαkα \nX-WA-BIZ-DESCRIPTION:[❗] ᴇsᴄʀɪʙɪ sᴏʟᴏ ᴘᴏʀ ᴄᴏsᴀs ᴅᴇʟ ʙᴏᴛ.\nX-WA-BIZ-NAME:KoharuBot-MD✿\nEND:VCARD`
-await this.sendMessage(nk.from, { contacts: { displayName: '✿ KoharuBot-MD ✿', contacts: [{ vcard }] }}, {quoted: callmsg})
+let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;;;;\n❁ 𝙃𝙪_𝙏𝙖𝙤  𝘽𝙊𝙏 ❁FN:❁ 𝙃𝙪_𝙏𝙖𝙤  𝘽𝙊𝙏 ❁\nORG:❁ 𝙃𝙪_𝙏𝙖𝙤  𝘽𝙊𝙏 ❁\nTITLE:\nitem1.TEL;waid=5214774444444:+52 477 444 4444\nitem1.X-ABLabel:❁ 𝙃𝙪_𝙏𝙖𝙤  𝘽𝙊𝙏 ❁ \nX-WA-BIZ-DESCRIPTION:[❗] ᴇsᴄʀɪʙɪ sᴏʟᴏ ᴘᴏʀ ᴄᴏsᴀs ᴅᴇʟ ʙᴏᴛ.\nX-WA-BIZ-NAME:❁ 𝙃𝙪_𝙏𝙖𝙤  𝘽𝙊𝙏 ❁\nEND:VCARD`
+await this.sendMessage(nk.from, { contacts: { displayName: '❁ 𝙃𝙪_𝙏𝙖𝙤  𝘽𝙊𝙏 ❁', contacts: [{ vcard }] }}, {quoted: callmsg})
 await this.updateBlockStatus(nk.from, 'block')
 }}}}
 
@@ -676,18 +676,18 @@ console.error(e)
 
 global.dfail = async (type, m, conn, usedPrefix) => { 
 let msg = {
-rowner: await tr('❀ Ehh~ ¿Qué haces? Este comando es solo para mi amo supremo ❀'),
-owner: await tr('❀ Nyaa~ Este comando es solo para mi adorado propietario ❀'),
-mods: await tr('❀ Upsi~ Solo los moderadores kawaii pueden usar este comando ❀'),
-premium: await tr('❀ Este comando es solo para usuarios Premium (VIP)~ Brillas como una estrella ❀'),
-group: await tr('❀ Nyuu~ Este comando solo funciona en grupos. Invítame a uno, onegai~ ❀'),
-private: await tr('❀ Ehh... Este comando solo funciona en mi chat privado. Vamos allá~ ❀'),
-admin: await tr('❀ Ehhh... Solo los admins super poderosos pueden usar este comando ❀'),
-botAdmin: await tr('❀ Hazme admin, onegai~ No puedo usar mis poderes sin ser admin ❀'),
-unreg: await tr(' Nyaa~ No estás registrado \n\nNo apareces en mi base de datos secreta ❀\n\nEscribe esto para registrarte:\n\nComando: #reg nombre.edad\nEjemplo: #reg Alba.20'),
-restrict: await tr('❀ Este comando está en modo secreto... mi amo lo ha desactivado ❀'),
+rowner: await tr('Este comando solo lo puede usar el owner'),
+owner: await tr('Este comando solo lo puede usar el owner'),
+mods: await tr('Este comando solo lo puede usar los mods de la bot'),
+premium: await tr('Este comando solo lo pueden usar usuarios premiums'),
+group: await tr('Este comando solo funciona en grupos'),
+private: await tr('Este cmomando solo funciona al privado de la bot'),
+admin: await tr('Este comando solo funciona para los admins'),
+botAdmin: await tr('Este comando solo funciona si la bot es admin'),
+unreg: await tr('¡Boo~! Parece que eres un alma errante 👻\n\nNo estás en los registros de la Funeraria Wangsheng ✦\n\nPara unirte al desfile de espíritus, regístrate así:\n\nComando: #registrar nombre.edad\nEjemplo: #registrar HuTao.19\n\n¡Vamos, no tengas miedo~! La vida es corta, ¡y los fantasmas somos divertidos! 🏮✨'),
+restrict: await tr('Este comando esta desactivado'),
 }[type];
-if (msg) return conn.sendMessage(m.chat, {text: msg, contextInfo: { mentionedJid: null, forwardingScore: 1, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363198641161536@newsletter', serverMessageId: '', newsletterName: 'kօհαɾմ հí́ժαkα թօաҽɾҽժ @αlճα070503' }, externalAdReply : {mediaUrl: null, mediaType: 1, description: null, "title": `❀ íղբօɾოαcíօ́ղ ❀`, body: wm, previewType: 0, "thumbnail": img.getRandom(), sourceUrl: [nna, nna2, md, yt, nn, tiktok].getRandom()}}}, { quoted: m })
+if (msg) return conn.sendMessage(m.chat, {text: msg, contextInfo: { mentionedJid: null, forwardingScore: 1, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '', serverMessageId: '', newsletterName: 'Aldair' }, externalAdReply : {mediaUrl: null, mediaType: 1, description: null, "title": `INFO`, body: wm, previewType: 0, "thumbnail": img.getRandom(), sourceUrl: [nna, nna2, md, yt, nn, tiktok].getRandom()}}}, { quoted: m })
 }
 
 const file = global.__filename(import.meta.url, true);
