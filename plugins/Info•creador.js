@@ -1,7 +1,7 @@
 import PhoneNumber from 'awesome-phonenumber';
 
 let handler = async (m, { conn, usedPrefix, text, args, command }) => {
-  const nomorown = '59169082575'; 
+  const nomorown = '51935480552'; 
   const dev = 'Desarrollador'; 
   const packname = 'Numero Official'; 
 
@@ -15,8 +15,8 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
   let name = await conn.getName(who);
 
   await sendContactArray(conn, m.chat, [
-    [nomorown, '🍁 Powered @Alba070503', 'Alba070503', dev, 'Alba070503@hotmail.com', '🇧🇴 Bolivia', `https://youtube.com/@albao7o503`, bio],
-    [`${conn.user.jid.split('@')[0]}`, 'Es Una Bot 🤍', packname, ' No Hacer Spam', 'alba070503@hotmail.com', '🇲🇽 Mexico', 'https://github.com/Alba070503-Official', biobot]
+    [nomorown, 'Aldair', 'Aldair', dev, 'https://www.instagram.com/aldair_ddd/', '', `https://www.instagram.com/aldair_ddd/`, bio],
+    [`${conn.user.jid.split('@')[0]}`, 'BOT', packname, ' Hu Tao BOT', '', '', '', biobot]
   ], m);
 };
 
