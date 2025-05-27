@@ -11,17 +11,17 @@ import { tr, translateText } from './lib/_checkLang.js';
 //---------[ Añada los numeros a ser Propietario/a ]---------
 
 global.owner = [
-["59175655964", 'Onwer Alba070503', true], //ShizukaBot-MD 💙
-["59169082575"], 
-["59169214837"],
-["5218715746374"],
-["593968585383"],
-["595976126756"],
-["584125778026"],
-["593968263524"],
-["5215539356057"],
-["573012482597"],
-["51968374620"]]
+["51935480552", 'Aldair', true],
+["51935480552"], 
+["51935480552"],
+["51935480552"],
+["51935480552"],
+["51935480552"],
+["51935480552"],
+["51935480552"],
+["51935480552"],
+["51935480552"],
+["51935480552"]]
 global.mods = []
 global.prems = []
 
@@ -54,44 +54,44 @@ global.moment = moment
 
 //------------------------[ Stickers ]-----------------------------
 
-global.packname = `✿MomoAyaseBot-MD✿` //"Powered @Alba070503"
-global.author = `✿Powered @Alba070503✿` //"coloca tu nombre "
+global.packname = `❁ 𝙃𝙪_𝙏𝙖𝙤  𝘽𝙊𝙏 ❁` 
+global.author = `Aldair` 
 //------------[ Versión | Nombre | cuentas ]------------
 
-global.wm = 'KoharuBot-MD' 
+global.wm = '❁ 𝙃𝙪_𝙏𝙖𝙤  𝘽𝙊𝙏 ❁' 
 global.vs = '2.3.0'
-global.yt = 'https://www.youtube.com/@Alba070503'
-global.tiktok = 'https://www.tiktok.com/@Alba070503'
-global.md = 'https://github.com/Alba070503/KoharuBot-MD'
-global.fb = 'https://www.facebook.com/'
-global.face = 'https://www.facebook.com/groups/872989990425789/'
+global.yt = 'https://www.instagram.com/aldair_ddd/'
+global.tiktok = 'https://www.instagram.com/aldair_ddd/'
+global.md = 'https://www.instagram.com/aldair_ddd/'
+global.fb = 'https://www.instagram.com/aldair_ddd/'
+global.face = 'https://www.instagram.com/aldair_ddd/'
 
-global.nna = 'https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A' //Update
-global.nna2 = 'https://whatsapp.com/channel/0029VaAN15BJP21BYCJ3tH04' //Koharu update
-global.nnaa = 'https://whatsapp.com/channel/0029VaAN15BJP21BYCJ3tH04' //Koharu - Test
-global.nn = 'https://whatsapp.com/channel/0029VaAN15BJP21BYCJ3tH04' //Grupo 1
-global.nnn = 'https://whatsapp.com/channel/0029VaAN15BJP21BYCJ3tH04' //Grupo 2
-global.nnnt = 'https://whatsapp.com/channel/0029VaAN15BJP21BYCJ3tH04' //Grupo del Colaboracion
-global.nnntt = 'https://whatsapp.com/channel/0029VaAN15BJP21BYCJ3tH04' //enlace 
-global.nnnttt = 'https://whatsapp.com/channel/0029VaAN15BJP21BYCJ3tH04' //A.T.T.M
-global.nnntttt = 'https://whatsapp.com/channel/0029VaAN15BJP21BYCJ3tH04' //Grupo ayuda sobre el bot
-global.bot = 'wa.me/59169082575'
+global.nna = 'https://whatsapp.com/channel/0029Vb6dZoR3bbVCsueDiK0w' //Update
+global.nna2 = 'https://whatsapp.com/channel/0029Vb6dZoR3bbVCsueDiK0w' //Koharu update
+global.nnaa = 'https://whatsapp.com/channel/0029Vb6dZoR3bbVCsueDiK0w' //Koharu - Test
+global.nn = 'https://whatsapp.com/channel/0029Vb6dZoR3bbVCsueDiK0w' //Grupo 1
+global.nnn = 'https://whatsapp.com/channel/0029Vb6dZoR3bbVCsueDiK0w' //Grupo 2
+global.nnnt = 'https://whatsapp.com/channel/0029Vb6dZoR3bbVCsueDiK0w' //Grupo del Colaboracion
+global.nnntt = 'https://whatsapp.com/channel/0029Vb6dZoR3bbVCsueDiK0w' //enlace 
+global.nnnttt = 'https://whatsapp.com/channel/0029Vb6dZoR3bbVCsueDiK0w' //A.T.T.M
+global.nnntttt = 'https://whatsapp.com/cha51935480552nnel/0029Vb6dZoR3bbVCsueDiK0w' //Grupo ayuda sobre el bot
+global.bot = 'wa.me/51935480552'
 global.redes = [nna, nna2, yt, nn, nnn, nnnt, nnntt, nnnttt, nnntttt, md, tiktok, fb, face]
 
 //------------------------[ Info | Datos ]---------------------------
 
-global.wait = '❀ Espérame tantito~ estoy haciendo magia kawaii ❀\n\n> *❀ Porfis no hagas spam, que me asusto~ ❀*'
-global.waitt = '*❀ Cargando con ternura... ▬▬▭▭▭*'
-global.waittt = '*❀ Cargando con ternura... ▬▬▬▬▭▭*'
-global.waitttt = '*❀ Cargando con ternura... ▬▬▬▬▬▬▭*'
-global.waittttt = '*❀ Cargando con ternura... ▬▬▬▬▬▬▬*'
-global.rg = '『❀ R E S U L T A D I T O S  L I N D O S ❀』\n\n'
-global.ag = '『❀ A Y A A ~  P R E C A U C I Ó N ❀』\n\n'
-global.iig = '『❀ D A T I T O S  B O N I T O S ❀』\n\n'
-global.fg = '『❀ U W U ~ A L G O  F A L L Ó ❀』\n\n'
-global.mg = '『❀ O P P S ~  L O  U S A S T E  M A L ❀』\n\n'
-global.eeg = '『❀ R E P O R T I T O  E N V I A D O ❀』\n\n'
-global.eg = '『❀ T O D O  S A L I Ó  B I E N ~ Y A Y ❀』\n\n'
+global.wait = 'ESPEREN UN MOMENTO PORFAVOR\n\n> *NO SPAM... GRACIAS*'
+global.waitt = '* Cargando...*'
+global.waittt = '* Cargando...*'
+global.waitttt = '* Cargando...*'
+global.waittttt = '* Cargando...*'
+global.rg = 'R E S U L T A D O S\n\n'
+global.ag = 'P R E C A U C I Ó N \n\n'
+global.iig = 'D A T O S \n\n'
+global.fg = 'A L G O  F A L L Ó \n\n'
+global.mg = 'L O  U S A S T E  M A L \n\n'
+global.eeg = 'R E P O R T E  E N V I A D O \n\n'
+global.eg = 'T O D O  S A L I Ó  B I E N \n\n'
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.catalogo = fs.readFileSync('./src/img/catagolo.jpg')
@@ -99,20 +99,20 @@ global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(fa
 
 //-------------------------[ IMAGEN ]------------------------------
 //global.img = "https://qu.ax/Zgqq.jpg"
-global.img1 = 'https://files.catbox.moe/rt8xqt.jpg'
-global.img2 = 'https://files.catbox.moe/6ve8db.jpg'
+global.img1 = 'https://qu.ax/OwAmk.jpg'
+global.img2 = 'https://qu.ax/OwAmk.jpg'
 
 global.imagen = fs.readFileSync('./Menu2.jpg')
 global.imagen1 = fs.readFileSync('./media/Menu1.jpg')
 global.imagen2 = fs.readFileSync('./media/Menu2.jpg')
 global.imagen3 = fs.readFileSync('./media/Menu3.jpg')
 global.imagen4 = fs.readFileSync('./media/Menu4.jpg')
-global.imagen5 = 'https://files.catbox.moe/6ve8db.jpg'
-global.imagen6 = 'https://files.catbox.moe/lp0r2h.jpg'
-global.menu18 = 'https://files.catbox.moe/s5p436.jpg'
-global.vid1 = 'https://files.catbox.moe/5gw9u2.mp4'
+global.imagen5 = 'https://qu.ax/jXGYP.jpg'
+global.imagen6 = 'https://qu.ax/YEzqK.jpg'
+global.menu18 = 'https://qu.ax/VcXtV.jpg'
+global.vid1 = 'https://qu.ax/XZaYe.mp4'
 global.img = [imagen, imagen1, imagen2, imagen3, imagen4]
-global.imageUrl = ["https://files.catbox.moe/rt8xqt.jpg", "https://files.catbox.moe/6ve8db.jpg", "https://files.catbox.moe/s5p436.jpg"]
+global.imageUrl = ["https://qu.ax/OwAmk.jpg", "https://qu.ax/OwAmk.jpg", "https://qu.ax/OwAmk.jpg"]
 
 //----------------------------[ NIVELES | RPG ]---------------------------------
 
@@ -122,15 +122,15 @@ global.maxwarn = '4' // máxima advertencias
 //---------------[ IDs de canales ]----------------
 
 global.ch = {
-ch1: '120363198641161536@newsletter', 
-ch2: '120363198641161536@newsletter', 
-ch3: '120363198641161536@newsletter',
-ch4: '120363198641161536@newsletter',
-ch5: '120363198641161536@newsletter', 
-ch6: '120363198641161536@newsletter',
-ch7: '120363198641161536@newsletter',  
-ch8: '120363198641161536@newsletter',
-ch9: '120363198641161536@newsletter',
+ch1: '', 
+ch2: '', 
+ch3: '',
+ch4: '',
+ch5: '', 
+ch6: '',
+ch7: '',  
+ch8: '',
+ch9: '',
 }
 
 //----------------------------------------------------
