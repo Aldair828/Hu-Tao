@@ -5,11 +5,12 @@ const userMessages = new Map();
 const userRequests = {};
 
 const handler = async (m, { conn, args, command, usedPrefix }) => {
-if (!args[0]) throw `⚠️ ${await tr("Ingrese un enlace de Facebook para descargar el video")}\n• *${await tr("Ejemplo")}:* ${usedPrefix + command} https://www.facebook.com/watch?v=636541475139`;
-if (!args[0].match(/www.facebook.com|fb.watch/g)) throw `⚠️ ${await tr("Ingrese un enlace de Facebook para descargar el video")}\n• *${await tr("Ejemplo")}:* ${usedPrefix + command} https://www.facebook.com/watch?v=636541475139`;
-if (userRequests[m.sender]) return await conn.reply(m.chat, `⚠️ ${await tr("Hey")} @${m.sender.split('@')[0]} ${await tr("Calmao, ya estás bajando un video")} 🙄\n${await tr("Espera a que termine tu descarga actual antes de pedir otra...")}`, m)
+if (!args[0]) throw `👻 ¡Hu Tao dice que necesitas poner un enlace de Facebook para invocar el video!\n🎯 *Ejemplo:* ${usedPrefix + command} https://www.facebook.com/watch?v=636541475139`;
+if (!args[0].match(/www.facebook.com|fb.watch/g)) throw `👻 ¡Ese no parece un enlace válido de Facebook!\n🎯 *Ejemplo:* ${usedPrefix + command} https://www.facebook.com/watch?v=636541475139`;
+if (userRequests[m.sender]) return await conn.reply(m.chat, `⏳ ¡Ey tú! @${m.sender.split('@')[0]} ya estás bajando un video, ¡no seas glotón de descargas! 🍂\nEspera que el espíritu del video anterior se libere...`, m);
 userRequests[m.sender] = true;
-m.react(`⌛`);
+m.react(`🔥`);
+
 try {
 const downloadAttempts = [async () => {
 const api = await fetch(`https://api.agatz.xyz/api/facebook?url=${args[0]}`);
@@ -17,22 +18,22 @@ const data = await api.json();
 const videoUrl = data.data.hd || data.data.sd;
 const imageUrl = data.data.thumbnail;
 if (videoUrl && videoUrl.endsWith('.mp4')) {
-return { type: 'video', url: videoUrl, caption: `✅ ${await tr("Aquí está tu video de Facebook")}` };
+return { type: 'video', url: videoUrl, caption: `🎬 ¡Aquí está tu video espectral directo de Facebook! 🥀 -Hu Tao` };
 } else if (imageUrl && (imageUrl.endsWith('.jpg') || imageUrl.endsWith('.png'))) {
-return { type: 'image', url: imageUrl, caption: `✅ ${await tr("Aquí está la imagen de Facebook")}` };
+return { type: 'image', url: imageUrl, caption: `🖼️ ¡Una imagen encantada desde Facebook solo para ti! 🍁 -Hu Tao` };
 }},
 async () => {
 const api = await fetch(`${APIs.fgmods.url}/downloader/fbdl?url=${args[0]}&apikey=${APIs.fgmods.key}`);
 const data = await api.json();
 const downloadUrl = data.result[0].hd || data.result[0].sd;
-return { type: 'video', url: downloadUrl, caption: `✅ ${await tr("Aquí está tu video de Facebook")}` };
+return { type: 'video', url: downloadUrl, caption: `🎬 ¡Un video desde el más allá... digo, desde Facebook! 😏 -Hu Tao` };
 },
 async () => {
 const apiUrl = `${apis}/download/facebook?url=${args[0]}`;
 const apiResponse = await fetch(apiUrl);
 const delius = await apiResponse.json();
 const downloadUrl = delius.urls[0].hd || delius.urls[0].sd;
-return { type: 'video', url: downloadUrl, caption: `✅ ${await tr("Aquí está tu video de Facebook")}`};
+return { type: 'video', url: downloadUrl, caption: `🎥 ¡Video cazado con ayuda de los espíritus! 🌸 -Hu Tao`};
 },
 async () => {
 const apiUrl = `https://api.dorratz.com/fbvideo?url=${encodeURIComponent(args[0])}`;
@@ -41,12 +42,12 @@ const data = await response.json();
 const hdUrl = data.result.hd;
 const sdUrl = data.result.sd;
 const downloadUrl = hdUrl || sdUrl;
-return { type: 'video', url: downloadUrl, caption: `✅ ${await tr("Aquí está tu video de Facebook")}` };
+return { type: 'video', url: downloadUrl, caption: `🎥 ¡Otro video atrapado entre este mundo y el más allá! 👻 -Hu Tao` };
 },
 async () => {
 const ress = await fg.fbdl(args[0]);
 const urll = ress.data[0].url;
-return { type: 'video', url: urll, caption: `✅ ${await tr("Aquí está tu video de Facebook")}` };
+return { type: 'video', url: urll, caption: `🎬 ¡Invocación exitosa! Aquí tienes tu video. ✨ -Hu Tao` };
 }];
 
 let mediaData = null;
@@ -59,7 +60,7 @@ console.error(`Error in attempt: ${err.message}`);
 continue; 
 }}
 
-if (!mediaData) throw new Error(await tr('No se pudo descargar el video o imagen desde ninguna API'));
+if (!mediaData) throw new Error(`😵‍💫 ¡Ningún espíritu pudo traer tu video! Intenta con otro enlace... -Hu Tao`);
 const fileName = mediaData.type === 'video' ? 'video.mp4' : 'thumbnail.jpg';
 await conn.sendFile(m.chat, mediaData.url, fileName, mediaData.caption, m, null, fake);
 m.react('✅');
@@ -76,45 +77,3 @@ handler.limit = 3;
 handler.register = true;
 
 export default handler;
-
-async function igeh(url_media) {
-  return new Promise(async (resolve, reject) => {
-    const BASE_URL = 'https://instasupersave.com/';
-    try {
-      const resp = await axios(BASE_URL);
-      const cookie = resp.headers['set-cookie'];
-      const session = cookie[0].split(';')[0].replace('XSRF-TOKEN=', '').replace('%3D', '');
-      const config = {
-        method: 'post',
-        url: `${BASE_URL}api/convert`,
-        headers: {
-          'origin': 'https://instasupersave.com',
-          'referer': 'https://instasupersave.com/pt/',
-          'sec-fetch-dest': 'empty',
-          'sec-fetch-mode': 'cors',
-          'sec-fetch-site': 'same-origin',
-          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52',
-          'x-xsrf-token': session,
-          'Content-Type': 'application/json',
-          'Cookie': `XSRF-TOKEN=${session}; instasupersave_session=${session}`
-        },
-        data: { url: url_media }
-      };
-      axios(config).then(function(response) {
-        const ig = [];
-        if (Array.isArray(response.data)) {
-          response.data.forEach((post) => {
-            ig.push(post.sd === undefined ? post.thumb : post.sd.url);
-          });
-        } else {
-          ig.push(response.data.url[0].url);
-        }
-        resolve({ results_number: ig.length, url_list: ig });
-      }).catch(function(error) {
-        reject(error.message);
-      });
-    } catch (e) {
-      reject(e.message);
-    }
-  });
-}
